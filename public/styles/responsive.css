@@ -1,0 +1,153 @@
+@media (min-width: 1700px) {
+  #page-home {
+    background-position-x: 40vw;
+  }
+}
+
+@media (max-width: 900px) {
+  #page-home {
+    background-position-x: 70vw;
+  }
+  #page-home header a {
+    position: absolute;
+    bottom: 20px;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home main {
+    align-items: center;
+  }
+
+  #page-search-results .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #page-create-point .field-group {
+    flex-direction: column;
+  }
+
+  #page-create-point .field-group .field + .field {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 590px) {
+
+  #page-create-point .items-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #page-search-results .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  #page-home header{
+      flex-direction: row;
+    align-content: space-between;
+  }
+}
+
+@media (max-width: 490px) {
+  #page-home main a {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 450px) {
+    #page-create-point .items-grid {
+      grid-template-columns: 1fr;
+    }
+    #page-create-point form .field{
+      width: 60vw;
+    }
+    #page-create-point form button{
+      width: 50vw;
+    }
+    #modal .content {
+        color: white;
+        width: 90vw;
+    }
+  }
+  
+@media (max-width: 410px) {
+  header a p{
+    font-size: 0.01px;
+  }
+  #page-create-point form .field{
+    width: 50vw;
+  }
+
+}
+
+@media (max-width: 330px) {
+  #page-home {
+    background-position-x: 40vw;
+  }
+  #page-home main a {
+    width: 90%;
+    max-width: 350px;
+  }
+}
+
+@media (max-height: 750px) {
+  #page-home {
+    background-position-y: 200px;
+  }
+}
+@media (max-height: 680px) {
+  #page-home main {
+    margin-top: 10px;
+  }
+
+  #page-home main h1 {
+    font-size: 50px;
+  }
+
+  #page-home main p {
+    font-size: 22px;
+  }
+  #page-home main a strong {
+    font-size: 15px;
+  }
+
+  #page-home header a {
+    bottom: 15px;
+  }
+}
+@media (max-height: 620px) {
+  #page-home header {
+    margin-top: 10px;
+  }
+
+  #page-home header a {
+    width: 200px;
+    bottom: 15px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  #page-home main {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  #page-home main h1 {
+    font-size: 50px;
+  }
+
+  #page-home main p {
+    font-size: 22px;
+  }
+  #page-home main a {
+    height: 50px;
+  }
+  #page-home main a span {
+    height: 50px;
+  }
+}
