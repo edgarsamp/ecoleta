@@ -10,7 +10,7 @@ O projeto foi desenvolvido durante a Next Week Level 1.0, ministrada pela [rocke
 Clonar o repositório
 ```bash
 $ git clone https://github.com/edgarsamp/ecoleta
-$ cd ecoletanpm
+$ cd ecoleta
 ```
 
 Instale as dependências e inicie o projeto
